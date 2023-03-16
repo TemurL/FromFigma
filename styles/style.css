@@ -279,11 +279,10 @@ MEDIA
     }
 
     img[alt='menu'] {
-        padding: 3rem;
         display: block;
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 3rem;
+        right: 3rem;
         transition: 0.3s;
         width: 29px;
         aspect-ratio: 1/1;

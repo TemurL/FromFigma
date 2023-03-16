@@ -7,10 +7,12 @@ function mobHead () {
         header.style.marginLeft = '0';
         menuBtn.setAttribute('src', '/img/Groupcross.svg')
         menuBtn.style.transform = 'rotate(180deg)';
+        menuBtn.style.position = 'fixed';
     } else {
         header.style.marginLeft = '100vw';
         menuBtn.setAttribute('src', '/img/Group 3menu.svg')
         menuBtn.style.transform = 'rotate(0deg)';
+        menuBtn.style.position = 'absolute';
     }
 }
 
@@ -21,5 +23,6 @@ header.addEventListener('click', () => {
         header.style.marginLeft = '100vw';
         menuBtn.setAttribute('src', '/img/Group 3menu.svg');
         menuBtn.style.transform = 'rotate(0deg)';
+        menuBtn.style.position = 'absolute';
     }
 });
