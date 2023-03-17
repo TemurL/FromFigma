@@ -281,8 +281,8 @@ MEDIA
     img[alt='menu'] {
         display: block;
         position: absolute;
-        top: 3rem;
-        right: 3rem;
+        top: 2.5rem;
+        right: 8vw;
         transition: 0.3s;
         width: 29px;
         aspect-ratio: 1/1;
